@@ -1,0 +1,20 @@
+{
+  "name": "pwii-api-clientes",
+  "version": "1.0.0",
+  "description": "o projeto sera uma atividade da aula de PW2 do dia 15/04/2026",
+  "homepage": "https://github.com/gustavo01dd/pwII-api-clientes#readme",
+  "bugs": {
+    "url": "https://github.com/gustavo01dd/pwII-api-clientes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo01dd/pwII-api-clientes.git"
+  },
+  "license": "ISC",
+  "author": "Gustavo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
