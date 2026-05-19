@@ -1,4 +1,4 @@
-const clientes = require("../../data/clientes ")
+const clientes = require("../../data/clientes")
 const listarClientes = async (req, res) => {
     
     try{
@@ -51,5 +51,6 @@ const buscarClientePorId = async (req, res) => {
 }
 
 module.exports = {
-    listarClientesPorId
+    listarClientes,
+    buscarClientePorId
 };
