@@ -1,4 +1,4 @@
-# Ignore package.lock.json
+# Ignore package-lock.json
 package.lock.json
 
 # Ignore node_modules
