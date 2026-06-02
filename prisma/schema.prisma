@@ -1,0 +1,18 @@
+generator client{
+    provinder = "prisma-client-js"
+}
+
+datasource db {
+    provinder = "mysql"
+    url = env("mysql://usuario:senha@localhost:3306/Model")
+}   
+
+model Cliente {
+    id Int @id @default(autoincrement())
+    nome String 
+    telefone String?
+    endereco String?
+
+    @@map("clientes")
+}
+

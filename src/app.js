@@ -1,3 +1,10 @@
+// src/app.js
+
+const path = require("path");
+const prisma = require("./config/prisma");
+const { PrismaClient } = require("@prisma/client");
+require("dotenv").config({ path: path.resolve(__dirname, ".env") }); 
+
 const express = require("express");
 const clientesRoutes = require("./routes/clientesRoutes");
 
