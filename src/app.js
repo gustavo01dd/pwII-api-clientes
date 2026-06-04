@@ -40,4 +40,10 @@ app.listen(PORT, () => {
     console.log (`\n 🚀 Servidor rodando em http://localhost:${PORT}`);
 })
 
+//Teardown de conexão
+process.on("SIGINT", async () => {
+    await prisma.$disconnect();
+    console.log("conexão com o banco de dados encerrada");
+    process.exit(0);
+})
 module.exports = app;
